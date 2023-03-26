@@ -7,3 +7,9 @@ They consist of static and dynamic pages which are rendered or sent to the user 
 Controller:Controller controls the requests of the user and then generates appropriate response which is fed to the viewer.
 Typically, the user interacts with the View, which in turn generates the appropriate request, this request will be handled by a controller. 
 The controller renders the appropriate view with the model data as a response. So, to sum it up:
+
+```
+Model is data part.
+View is User Interface part.
+Controller is request-response handler.
+```
